@@ -1,0 +1,29 @@
+{
+  "name": "npm-vico",
+  "version": "1.0.0",
+  "description": "personal utilities library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puntoVic/npm-vico.git"
+  },
+  "keywords": [],
+  "author": "Victor Olvera <volvera.thome@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/puntoVic/npm-vico/issues"
+  },
+  "homepage": "https://github.com/puntoVic/npm-vico#readme",
+  "bin": {
+    "npm-vico": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1",
+    "npm-vico": "file:",
+    "user": "^0.0.0"
+  }
+}
